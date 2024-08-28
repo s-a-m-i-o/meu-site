@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pq-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- FIM GOOGLE FONTS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+
+    <title>S&J Desenvolvedor</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/fontes.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/menu-mobile.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="./src/img/logo1.png" alt="Logo">
+                </a>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul class="menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidade</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="https://api.whatsapp.com/send/?phone=5511972512377&text=Quero+agendar%21+&type=phone_number&app_absent=0" target="_blank">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#especialidades">Especialidade</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="https://api.whatsapp.com/send/?phone=5511972512377&text=Quero+agendar%21+&type=phone_number&app_absent=0" target="_blank">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu">
+
+            </div>
+        </div>
+    </header> <!-- header -->
+
+    <main class="main">
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>TRANSFORMANDO IDÉIAS EM REALIDADE DIGITAL<span>.</span></h1>
+                        <p>
+                            Criatividade intuitiva andam lado a lado. Com uma combinação única de design impactante, funcionalidade intuitiva e otimização para resultados, estou pronto para criar a presença online dos seu sonhos.
+                        </p>
+
+                        <div class="btn-contato">
+                            <a href="https://api.whatsapp.com/send/?phone=5511972512377&text=Quero+agendar%21+&type=phone_number&app_absent=0" target="_blank">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="img-topo-site">
+                        <img src="./src/img/sj.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="especialidades" id="especialidades">
+            <div class="interfaca">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-html"></i>
+                        <h3>HTML</h3>
+                        <p>Linguagem padrão usada para criar e estruturar conteúdo na web. Ele define a estrutura básica de uma página web através de elementos e tags que organizam texto, imagens, links e outros conteúdos. HTML também permite a integração com CSS para estilização e JavaScript para interatividade, tornando-se a base essencial para qualquer site ou aplicação web.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-css"></i>
+                        <h3>CSS</h3>
+                        <p>Linguagem utilizada para definir a apresentação visual de uma página web. Com CSS, é possível controlar cores, fontes, layouts, espaçamentos e a responsividade do design, permitindo que o conteúdo HTML seja exibido de maneira atraente e adaptável a diferentes dispositivos. O CSS trabalha em conjunto com o HTML para separar a estrutura do conteúdo da estilização, facilitando o desenvolvimento e a manutenção de sites modernos e dinâmicos.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-js"></i>
+                        <h3>JavaScript <br> (em andamento)</h3>
+                        <p>Llinguagem de programação essencial para adicionar interatividade e dinamismo a páginas web. Diferente do HTML e CSS, que estruturam e estilizam o conteúdo, o JavaScript permite manipular o DOM, responder a eventos do usuário, validar formulários, e muito mais. Ele é amplamente utilizado para criar aplicações web ricas e responsivas, funcionando tanto no lado do cliente (front-end) quanto no lado do servidor (back-end), com o uso de tecnologias como Node.js. JavaScript é uma das principais ferramentas para o desenvolvimento web moderno.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="./src/img/samio.png" alt="Imagem Pessoal">
+                    </div>
+                    <div class="txtsobre">
+                        <h2>MUITO PRAZER, SOU <span>SAMIO AZEREDO</span></h2>
+                        <p>
+                            Sou desenvolvedor front-end júnior, com habilidades em HTML, CSS e me aprimorando em JavaScript. Meu objetivo é crescer na área de desenvolvimento, com foco em me tornar um desenvolvedor Full Stack, integrando conhecimentos de back-end para criar soluções completas e robustas.</p>
+
+                        <div class="btn-social">
+                            <a href="https://www.linkedin.com/in/samio-azeredo-687a9b168/" target="_blank">
+                                <button>
+                                    <i class="bi bi-linkedin"></i>
+                                </button>
+                            </a>
+                            <a href="https://www.instagram.com/samioazeredo/" target="_blank">
+                                <button>
+                                    <i class="bi bi-instagram"></i>
+                                </button>
+                            </a>
+                            <a href="https://github.com/s-a-m-i-o" target="_blank">
+                                <button>
+                                    <i class="bi bi-github"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portifolio" id="projetos">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTIFÓLIO</span></h2>
+                <div class="flex">
+                        <div class="img-port" style="background-image: url('./src/img/site01.png');">
+                        <a href="https://studio-amanda-souza.netlify.app/" target="_blank">
+                            <div class="overlay">Projeto 1</div>
+                        </a>                    
+                    </div>
+                    <div class="img-port" style="background-image: url('./src/img/site02.png');">
+                        <a href="https://vaneide-cabelereira.netlify.app/" target="_blank">
+                            <div class="overlay">Projeto 2</div>
+                        </a>
+                    </div>
+                    <div class="img-port" style="background-image: url('./src/img/site03.png');">
+                        <a href="https://acontece-em-vegas.netlify.app/" target="_blank">
+                            <div class="overlay">Projeto 3</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+
+                <form action="">
+                    <input type="text" name="nome" id="nome" placeholder="Nome Completo:" required>
+                    <input type="text" name="nome" id="nome" placeholder="E-mail: " required>
+                    <input type="text" name="nome" id="nome" placeholder="Telefone: ">
+                    <textarea name="" id="" placeholder="Sua Mensagem" required></textarea>
+
+                    <div class="btn-enviar"><input type="submit" value="enviar"></div>
+                </form>
+            </div>
+        </section> -->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer borda">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="src/img/logo1.png" alt="Meu logo">
+                    </div>
+
+                    <div class="btn-social">
+                        <a href="https://www.linkedin.com/in/samio-azeredo-687a9b168/" target="_blank">
+                            <button>
+                                <i class="bi bi-linkedin"></i>
+                            </button>
+                        </a>
+                        <a href="https://www.instagram.com/samioazeredo/" target="_blank">
+                            <button>
+                                <i class="bi bi-instagram"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/s-a-m-i-o" target="_blank">
+                            <button>
+                                <i class="bi bi-github"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="line-footer">
+                <p>
+                    <i class="bi bi-envelope-fill"></i> 
+                    <a href="mailto:s.a.m.i.o@hotmail.com">s.a.m.i.o@hotmail.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/js/menu.js"></script>
+
+</body>
+
+</html>
