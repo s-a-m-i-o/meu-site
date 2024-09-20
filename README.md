@@ -9,9 +9,9 @@ Sou um desenvolvedor front-end júnior apaixonado por criar experiências digita
 * **JavaScript:** Interatividade e dinamismo.
 
 ## Projetos
-* **[Nome do Projeto 1]:** [(https://studio-amanda-souza.netlify.app)] - Meu primeiro Free, site de studio especializado em tranças.
-* **[Nome do Projeto 2]:** https://vaneide-cabelereira.netlify.app - Meu primeiro site feito em HTML e CSS.
-* **[Nome do Projeto 3]:** [[Link para o projeto]](https://acontece-em-vegas.netlify.app) - Um site descontraido de driks, (hobbie nas hrs vagas), para os amigos escolherem o que preferem beber no fds.
+* **Studio Amanda Souza:** [(https://studio-amanda-souza.netlify.app)] - Meu primeiro Free, site de studio especializado em tranças.
+* **Vaneide Cabelereira:** https://vaneide-cabelereira.netlify.app - Meu primeiro site feito em HTML e CSS.
+* **Cardapio Pessoal:** [[Link para o projeto]](https://acontece-em-vegas.netlify.app) - Um site descontraido de driks, (hobbie nas hrs vagas), para os amigos escolherem o que preferem beber no fds.
 
 ## Como visualizar o projeto
 1. **Clone este repositório:**
