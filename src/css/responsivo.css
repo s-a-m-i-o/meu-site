@@ -1,0 +1,115 @@
+@media screen and (max-width:1100px) {
+
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    .titulo {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    /* FIM CLASSES GERAIS */
+
+    .topo-do-site .interface .flex {
+        flex-direction: column;
+    }
+
+
+    /* cabeclaho */
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /* fimCabecalo */
+
+    /* topoDoSite */
+    .topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site .flex {
+        gap: 40px;
+    }
+
+    .topo-do-site h1 {
+        font-size: 32px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /* fimTopoDoSite */
+
+    /* especialidades */
+    .especialidades {
+        padding: 40px 8%;
+    }
+    /* fimEspecialidades */
+
+    /* sobre */
+    .especialidades {
+        padding: 40px 8%;
+    }
+
+    .interface .flex {
+        flex-direction: column-reverse;
+    }
+
+    .sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .txtsobre h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .img-sobre img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    /* fimSobre */
+
+    /* portifolio */
+    .portifolio .interface {display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .portifolio {
+        padding: 80px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        height: 460px;
+        margin: 7px 0;
+    }
+    /* fimPortifolio */
+
+    /* rodape */
+    footer .flex {
+        flex-direction: column;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+
+}
+
+@media (max-width:1100px) and (min-width:248px) {
+    .menu-mobile, .btn-abrir-menu {
+        display: block;
+    }
+}
