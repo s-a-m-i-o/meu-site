@@ -10,7 +10,7 @@ Sou um desenvolvedor front-end júnior apaixonado por criar experiências digita
 * **JavaScript:** Interatividade e dinamismo.
 
 ## Projetos
-* **Studio Amanda Souza:** [(https://s-a-m-i-o.github.io/EstidioAmandaSouza/)] - Meu primeiro Free, site de studio especializado em tranças.
-* **Vaneide Cabelereira:** https://vaneide-cabelereira.netlify.app - Meu primeiro site feito em HTML e CSS.
+* **Studio Amanda Souza:** [[Link para o Projeto]](https://s-a-m-i-o.github.io/EstidioAmandaSouza/) - Meu primeiro Free, site de studio especializado em tranças.
+* **Vaneide Cabelereira:**[[Link para o Projeto]](https://vaneide-cabelereira.netlify.app) - Meu primeiro site feito em HTML e CSS.
 * **Cardapio Pessoal:** [[Link para o projeto]](https://acontece-em-vegas.netlify.app) - Um site descontraido de drinks, (hobbie nas hrs vagas), para os amigos escolherem o que preferem beber no fds.
 
