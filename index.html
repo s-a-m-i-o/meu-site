@@ -19,6 +19,7 @@
     <title>S&J Desenvolvedor</title>
 
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/root.css">
     <link rel="stylesheet" href="./src/css/global.css">
     <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="stylesheet" href="./src/css/fontes.css">
@@ -74,7 +75,6 @@
 
             </div>
         </div>
-    </header> <!-- header -->
 
     <main class="main">
         <section class="topo-do-site" id="inicio">
@@ -100,29 +100,6 @@
             </div>
         </section>
         
-        <section class="especialidades" id="especialidades">
-            <div class="interface">
-                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
-                <div class="flex">
-                    <div class="especialidades-box">
-                        <i class="bi bi-filetype-html"></i>
-                        <h3>HTML</h3>
-                        <p>Linguagem padrão usada para criar e estruturar conteúdo na web. Ele define a estrutura básica de uma página web através de elementos e tags que organizam texto, imagens, links e outros conteúdos. HTML também permite a integração com CSS para estilização e JavaScript para interatividade, tornando-se a base essencial para qualquer site ou aplicação web.</p>
-                    </div>
-                    <div class="especialidades-box">
-                        <i class="bi bi-filetype-css"></i>
-                        <h3>CSS</h3>
-                        <p>Linguagem utilizada para definir a apresentação visual de uma página web. Com CSS, é possível controlar cores, fontes, layouts, espaçamentos e a responsividade do design, permitindo que o conteúdo HTML seja exibido de maneira atraente e adaptável a diferentes dispositivos. O CSS trabalha em conjunto com o HTML para separar a estrutura do conteúdo da estilização, facilitando o desenvolvimento e a manutenção de sites modernos e dinâmicos.</p>
-                    </div>
-                    <div class="especialidades-box">
-                        <i class="bi bi-filetype-js"></i>
-                        <h3>JavaScript</h3>
-                        <p>Linguagem de programação essencial para adicionar interatividade e dinamismo a páginas web. Diferente do HTML e CSS, que estruturam e estilizam o conteúdo, o JavaScript permite manipular o DOM, responder a eventos do usuário, validar formulários, e muito mais. Ele é amplamente utilizado para criar aplicações web ricas e responsivas, funcionando tanto no lado do cliente (front-end) quanto no lado do servidor (back-end), com o uso de tecnologias como Node.js. JavaScript é uma das principais ferramentas para o desenvolvimento web moderno.</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
 
         <section class="sobre" id="sobre">
             <div class="interface">
@@ -160,21 +137,38 @@
         <section class="portifolio" id="projetos">
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTIFÓLIO</span></h2>
-                <div class="flex">"
-                        <div class="img-port" style="background-image: url('./src/img/site01.png');">
-                        <a href="https://s-a-m-i-o.github.io/EstidioAmandaSouza/" target="_blank">
-                            <div class="overlay">Projeto 1</div>
-                        </a>                    
+                <div class="flex">
+                    <div class="card">
+                        <h3 class="titulo-card">STUDIO AMANDA SOUZA</h3>
+                        <img src="./src/img/acadeimia-afro-print.jpg" alt="Academia Afro">
+                        <p class="descricao-card">
+                            Landing page elegante e visual, desenvolvida para destacar o profissionalismo, a arte e a variedade de penteados, facilitando o agendamento de clientes.
+                        </p>
+                        <a href="#" class="btn-card">VISITAR</a>
                     </div>
-                    <div class="img-port" style="background-image: url('./src/img/site02.png');">
-                        <a href="https://vaneide-cabelereira.netlify.app/" target="_blank">
-                            <div class="overlay">Projeto 2</div>
-                        </a>
+                    <div class="card">
+                        <h3 class="titulo-card">L.A ASSISTENCIA</h3>
+                        <img src="./src/img/l.a-assitencia.jpg" alt="L.A Assistencia técnica">
+                        <p class="descricao-card">
+                            Plataforma institucional focada em conversão, com orçamento rápido, listagem de serviços e transmissão de confiança para a assistência técnica.
+                        </p>
+                        <a href="#" class="btn-card">VISITAR</a>
                     </div>
-                    <div class="img-port" style="background-image: url('./src/img/site03.png');">
-                        <a href="https://acontece-em-vegas.netlify.app/" target="_blank">
-                            <div class="overlay">Projeto 3</div>
-                        </a>
+                    <div class="card">
+                        <h3 class="titulo-card">VEGAS</h3>
+                        <img src="./src/img/vegas-print.jpg" alt="Site de drinks">
+                        <p class="descricao-card">
+                            Cardápio digital interativo e responsivo, com design moderno e minimalista, focado na experiência do usuário e na valorização visual dos coquetéis.
+                        </p>
+                        <a href="#" class="btn-card">VISITAR</a>
+                    </div>
+                    <div class="card">
+                        <h3 class="titulo-card">VANEIDE CABELEREIRA</h3>
+                        <img src="./src/img/vaneide-h.b.jpg" alt="Vaneide Cabelereira">
+                        <p class="descricao-card">
+                            Meu projeto de estreia no desenvolvimento web: uma página clean e funcional criada para apresentação de serviços de beleza e horários de atendimento
+                        </p>
+                        <a href="#" class="btn-card">VISITAR</a>
                     </div>
                 </div>
             </div>
@@ -182,41 +176,31 @@
     </main>
 
     <footer>
-        <div class="interface">
-            <div class="line-footer borda">
-                <div class="flex">
-                    <div class="logo-footer">
-                        <img src="src/img/logo1.png" alt="Meu logo">
-                    </div>
-
-                    <div class="btn-social">
-                        <a href="https://www.linkedin.com/in/samio-azeredo-687a9b168/" target="_blank">
-                            <button>
-                                <i class="bi bi-linkedin"></i>
-                            </button>
-                        </a>
-                        <a href="https://www.instagram.com/samioazeredo/" target="_blank">
-                            <button>
-                                <i class="bi bi-instagram"></i>
-                            </button>
-                        </a>
-                        <a href="https://github.com/s-a-m-i-o" target="_blank">
-                            <button>
-                                <i class="bi bi-github"></i>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-            
-            <div class="line-footer">
-                <p>
-                    <i class="bi bi-envelope-fill"></i> 
-                    <a href="mailto:s.a.m.i.o@hotmail.com">s.a.m.i.o@hotmail.com</a>
-                </p>
-            </div>
+        <div class="btn-social">
+            <a href="https://www.linkedin.com/in/samio-a-azeredo/" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/samio_azeredo/" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://github.com/s-a-m-i-o" target="_blank">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="<i class="bi bi-discord" target="_blank">
+                <i class="bi bi-discord"></i>
+            </a>
         </div>
+            
+        <div class="email">
+            <p>
+                <i class="bi bi-envelope-fill"></i> 
+                <a href="mailto:s.a.m.i.o@hotmail.com">s.a.m.i.o@hotmail.com</a>
+            </p>
+            <p>
+                &copy; 2026
+            </p>
+        </div>
+        <img src="./src/img/logo1.png" alt="JS web developers" class="footer-logo">        
     </footer>
 
     <script src="./src/js/menu.js"></script>

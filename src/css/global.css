@@ -1,7 +1,7 @@
 body {
     background-color: #000;
     height: 100vh;
-    color: #fff;
+    color: var(--texto);
     font-family: poppins;
 }
 
@@ -10,7 +10,6 @@ body {
 }
 
 h2.titulo {
-    color: #fff;
     font-size: 38px;
     text-align: center;
 }
@@ -30,8 +29,17 @@ h2.titulo span {
     transition: 0.3s;
 }
 
-button:hover, .formulario .btn-enviar input:hover {
+button:hover{
     box-shadow: 0px 0px 10px blueviolet;
-    color: #fff;
+    color: var(--texto);
     transform: scale(1.05);
+}
+
+p {
+    color: var(--texto);
+}
+
+h3 {
+    color: var(--dourado);
+    text-align: center;
 }
