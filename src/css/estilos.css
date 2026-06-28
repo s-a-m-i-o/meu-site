@@ -65,6 +65,21 @@
     
 }
 
+.topo-do-site .btn-contato a {
+    background-color: var(--dourado);
+    color: var(--preto);
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: all .5s ease-in-out;
+}
+
+.topo-do-site .btn-contato a:hover {
+    transform: translate(7px, -5px);
+    box-shadow: -1px 1px 3px var(--dourado-claro);
+}
+
 @keyframes flutuar {
     0% {
         top: 0;
