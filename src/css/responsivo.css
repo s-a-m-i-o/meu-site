@@ -1,6 +1,5 @@
 @media screen and (max-width:768px) {
 
-    /* CLASSES GERAIS */
     .flex {
         flex-direction: column;
     }
@@ -10,7 +9,6 @@
         line-height: 40px;
     }
 
-    /* FIM CLASSES GERAIS */
 
     .topo-do-site .interface .flex {
         flex-direction: column;
@@ -21,6 +19,11 @@
     .menu-desktop,
     .btn-contato {
         display: none;
+    }
+
+    .header .interface .logo {
+        width: 100%;
+        text-align: center;
     }
 
     /* fimCabecalo */
@@ -66,6 +69,10 @@
     .sobre .txtsobre h2 {
         font-size: 34px;
         text-align: center;
+    }
+
+    .sobre .txtsobre .eu {
+        flex-direction: column;
     }
 
     .btn-social {

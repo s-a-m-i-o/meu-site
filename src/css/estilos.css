@@ -104,13 +104,21 @@
     border-radius: 50px;
 }
 
-.sobre .txt-sobre {
+.sobre .txtsobre {
     color: #fff;
 }
 
-.sobre .txt-sobre h2 {
+.sobre .txtsobre h2 {
     font-size: 40px;
     margin-bottom: 30px;
+    text-align: center;
+}
+
+.sobre .txtsobre .eu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
 
 .sobre .txtsobre h2 span {
@@ -121,6 +129,13 @@
 .sobre .txt-sobre p {
     margin: 20px 0;
     text-align: justify;
+}
+
+.btn-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .btn-social button {
