@@ -21,6 +21,13 @@
         display: none;
     }
 
+    .header .fantasma::before {
+        content: "";
+        width: 80px;
+        height: 50px;
+        display: block;
+    }
+
     .header .interface .logo {
         width: 100%;
         text-align: center;
